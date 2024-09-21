@@ -1,0 +1,246 @@
+-- Create the table
+CREATE TABLE scenario_1 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_1 (id) VALUES (1), (1), (1),(2),(NULL),(3),(3);
+
+
+
+-- Create the table
+CREATE TABLE scenario_2 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_2 (id) VALUES (1), (1),(NULL),(4),(4);
+
+-- Create the table
+CREATE TABLE scenario_3 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_3 (id) VALUES (1), (2), (3),(4),(5);
+
+
+
+-- Create the table
+CREATE TABLE scenario_4 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_4 (id) VALUES (5), (6),(7),(8),(9);
+
+
+-- Create the table
+CREATE TABLE scenario_5 (
+    id INT,
+    name VARCHAR(100)
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_5 (id,name) VALUES (1,'John'), (1,'Eric'),(2,'Fred'),(3,'Peter');
+
+-- Create the table
+CREATE TABLE scenario_6 (
+    id INT,
+    name VARCHAR(100)
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_6 (id,name) VALUES (1,'Colin'), (2,'Tony'),(3,'Brent'),(4,'Sagar');
+
+
+-- Create the table
+CREATE TABLE scenario_7 (
+    id INT,
+    name VARCHAR(100)
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_7 (id,name) VALUES (1,'Amit'), (2,'Aditya');
+
+-- Create the table
+CREATE TABLE scenario_8 (
+    id INT,
+    name VARCHAR(100)
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_8 (id,name) VALUES (1,'Sunil'), (2,'Suresh');
+
+
+-- Create the table
+CREATE TABLE scenario_9 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_9 (id) VALUES (1), (1), (1),(1),(1),(NULL),(NULL);
+
+
+
+-- Create the table
+CREATE TABLE scenario_10 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_10 (id) VALUES (1), (1),(1),(2),(NULL);
+
+
+-- Create the table
+CREATE TABLE scenario_11 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_11 (id) VALUES (0), (0),(NULL),(NULL),(0);
+
+
+
+-- Create the table
+CREATE TABLE scenario_12 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_12 (id) VALUES (0),(NULL),(0),(0);
+
+-- Create the table
+CREATE TABLE scenario_13 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_13 (id) VALUES (1),(NULL),(1),(1),(1),(2);
+
+-- Create the table
+CREATE TABLE scenario_14 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_14 (id) VALUES (1),(NULL),(1),(2);
+
+-- Create the table
+CREATE TABLE scenario_15 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_15 (id) VALUES (1),(1),(2);
+
+-- Create the table
+CREATE TABLE scenario_16 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_16 (id) VALUES (1),(2),(2),(2);
+
+-- Create the table
+CREATE TABLE scenario_17 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_17 (id) VALUES (1),(1),(1),(2),(3),(3),(3);
+
+-- Create the table
+CREATE TABLE scenario_18 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_18 (id) VALUES (1),(1),(2),(2),(4),(NULL);
+
+
+-- Create the table
+CREATE TABLE scenario_19 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_19 (id) VALUES (10),(10),(10),(20),(NULL);
+
+-- Create the table
+CREATE TABLE scenario_20 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_20 (id) VALUES (10),(10),(30);
+
+
+-- Create the table
+CREATE TABLE scenario_21 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_21 (id) VALUES (1), (1), (1),(2),(2),(NULL),(3),(4),(5),(NULL),(NULL);
+
+
+
+-- Create the table
+CREATE TABLE scenario_22 (
+    id INT
+);
+
+-- Insert the data into the table
+INSERT INTO scenario_22 (id) VALUES (1),(1),(NULL),(2),(2),(2),(3),(3),(3),(NULL),(4);
+
+
+-- Create the table
+CREATE TABLE table_1 (
+    id INT,
+    value INT
+);
+
+-- Insert the data into the table
+INSERT INTO table_1 (id, value) VALUES (1, 1);
+INSERT INTO table_1 (id, value) VALUES (2, 0);
+INSERT INTO table_1 (id, value) VALUES (3, 1);
+
+
+-- Create the table
+CREATE TABLE table_2 (
+    id INT,
+    value INT
+);
+
+-- Insert the data into the table
+INSERT INTO table_2 (id, value) VALUES (1, 0);
+INSERT INTO table_2 (id, value) VALUES (2, 0);
+
+
+-- Create the product table
+CREATE TABLE product (
+    product_id INT,
+    product_name VARCHAR(50)
+);
+
+-- Insert values into the product table
+INSERT INTO product (product_id, product_name) VALUES (1, 'Laptop');
+INSERT INTO product (product_id, product_name) VALUES (2, 'Smartphone');
+INSERT INTO product (product_id, product_name) VALUES (3, 'Tablet');
+INSERT INTO product (product_id, product_name) VALUES (4, 'Monitor');
+INSERT INTO product (product_id, product_name) VALUES (NULL, 'Accessories');
+
+
+CREATE TABLE price (
+    product_id INT,
+    product_price DECIMAL(10, 2)
+);
+
+INSERT INTO price (product_id, product_price) VALUES(1, 10.99);
+INSERT INTO price (product_id, product_price) VALUES(2, 15.50);
+INSERT INTO price (product_id, product_price) VALUES(3, 7.25);
+INSERT INTO price (product_id, product_price) VALUES(4, 20.00);
+INSERT INTO price (product_id, product_price) VALUES(NULL, 140.00);
+INSERT INTO price (product_id, product_price) VALUES(NULL, 130.00);
+
